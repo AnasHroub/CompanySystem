@@ -1,0 +1,140 @@
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe.config
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.rsp
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csi.exe
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csi.rsp
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.AppContext.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Collections.Immutable.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Reflection.Metadata.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe.config
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.rsp
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe.config
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll.config
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.pdb
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.xml
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.dll
+E:\العمل\Projects\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.pdb
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe.config
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csc.rsp
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csi.exe
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\csi.rsp
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.AppContext.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe.config
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.rsp
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe
+D:\Projects\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll.config
+D:\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.pdb
+D:\Projects\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.dll
+D:\Projects\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.xml
+D:\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csprojResolveAssemblyReference.cache
+D:\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CoreCompileInputs.cache
+D:\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CopyComplete
+D:\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.dll
+D:\Projects\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.pdb
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe.config
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.rsp
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csi.exe
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csi.rsp
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.AppContext.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Collections.Immutable.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Reflection.Metadata.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe.config
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.rsp
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe.config
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll.config
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.pdb
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.xml
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CoreCompileInputs.cache
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CopyComplete
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.dll
+E:\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.pdb
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.exe.config
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csc.rsp
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csi.exe
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\csi.rsp
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.AppContext.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Collections.Immutable.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\System.Reflection.Metadata.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.exe.config
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\vbc.rsp
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\roslyn\VBCSCompiler.exe.config
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll.config
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\CompanySystemComponent.pdb
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\bin\Newtonsoft.Json.xml
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csprojResolveAssemblyReference.cache
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CoreCompileInputs.cache
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.csproj.CopyComplete
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.dll
+E:\أرشيف\العمل\Smart Art\CompanySystem\CompanySystemComponent\obj\Debug\CompanySystemComponent.pdb

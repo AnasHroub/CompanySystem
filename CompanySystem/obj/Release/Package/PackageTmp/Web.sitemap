@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  
+  <siteMapNode title="GUI" >
+    
+     <siteMapNode resourceKey="Account" >   
+        <siteMapNode url="/GUI/Account/SignIn.aspx" resourceKey="SignIn"/>
+        <siteMapNode url="/GUI/Account/Registration.aspx" resourceKey="Registration"/>
+        <siteMapNode url="/GUI/Account/ForgetPassword.aspx" resourceKey="ForgetPassword"/>
+     </siteMapNode>
+
+     <siteMapNode resourceKey="Home">  
+        <siteMapNode title="Clients" resourceKey="Clientshdr">       
+           <siteMapNode url="/GUI/Company/Clients/AddClients.aspx" resourceKey="AddClients"/>
+           <siteMapNode url="/GUI/Company/Clients/Clients.aspx" resourceKey="Clients"/>
+           <siteMapNode url="/GUI/Company/Clients/ClientsDelegates.aspx" resourceKey="ClientsDelegates"/>
+           <siteMapNode url="/GUI/Company/Clients/PricesLists.aspx" resourceKey="PricesLists"/>
+           <siteMapNode url="/GUI/Company/Clients/SetListPrices.aspx" resourceKey="SetListPrices"/>
+        </siteMapNode>
+    
+        <siteMapNode title="Delegates" resourceKey="Delegateshdr">
+           <siteMapNode url="/GUI/Company/Delegates/AddDelegates.aspx" resourceKey="AddDelegates"/>
+           <siteMapNode url="/GUI/Company/Delegates/Delegates.aspx" resourceKey="Delegates"/>
+        </siteMapNode>
+        
+        <siteMapNode title="Items" resourceKey="Itemshdr">
+           <siteMapNode url="/GUI/Company/Items/Groups.aspx" resourceKey="Groups"/>
+           <siteMapNode url="/GUI/Company/Items/Items.aspx" resourceKey="Items"/>
+        </siteMapNode>
+        
+        <siteMapNode title="Transactions" resourceKey="Transactionshdr">
+           <siteMapNode url="/GUI/Company/Transactions/Transactions.aspx" resourceKey="Transactions"/>
+        </siteMapNode>  
+     </siteMapNode>
+
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebMaster.master.cs" Inherits="CompanySystem.WebMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="AJAX" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Company System</title>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="App_Themes/Theme/Site.css" rel="stylesheet" />
+    <style type="text/css">
+        .lblColor
+        {
+            color: #00A2CA;
+            font-weight: bold;
+            font-size: xx-large;
+            font-family: Times New Roman (Headings CS);
+            margin-left: 50px;
+        }
+        .lblMedical
+        {
+            color: #1CC6F0;
+            font-size: medium;
+            vertical-align: sub;
+        }
+        .lblName
+        {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+   <form id="form1" runat="server">
+     <AJAX:ToolkitScriptManager ID="smAjaxScriptManager" LoadScriptsBeforeUI="true" AsyncPostBackTimeout="999999"
+        ScriptMode="Release" EnablePartialRendering="true" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="Scripts/Browser.js" />
+        </Scripts>
+
+        
+    </AJAX:ToolkitScriptManager>
+    <div id="DivWapper" class="Wapper">
+   <%--Header--%>
+        <div>
+            <div id="Profilediv" runat="server" style="width: 370px; height: 12px;">
+                <asp:HyperLink ID="lblSmart" runat="server" Text="Smart Art" CssClass="lblColor" NavigateUrl="~/GUI/Account/SignIn.aspx"></asp:HyperLink>
+                <asp:HyperLink ID="lblSystem" runat="server" Text="Company System" CssClass="lblMedical" NavigateUrl="~/GUI/Account/SignIn.aspx"></asp:HyperLink>
+            </div>
+            <div style="float: left; margin-left: 600px; margin-bottom: 7px;">
+                <a href="../Account/SignIn.aspx">Sign Out</a>
+                <asp:Label ID="lbl_name" runat="server" CssClass="lblName"></asp:Label>
+            </div>
+        </div>
+   <%--Body--%>
+        <div id="MainBody" class="MainBody">
+            <div id="MenuDiv" runat="server" class="MenuDiv">
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+   <%--Footer--%>
+                  <div id="Footer" class="Footer">
+               <div class="copyright">
+                   Copyright ©<%= DateTime.Now.Year %> Smart Art
+               </div>
+               <div class="copyright">
+                   All rights reserved. Powered by <a href="http://www.SmartArtjo.com"
+                   target="_blank"></a><a href="http://www.SmartArtjo.com">Smart Art</a>
+               </div>
+          </div>
+       </div>
+    </form>
+</body>
+</html>

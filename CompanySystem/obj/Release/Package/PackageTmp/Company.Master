@@ -1,0 +1,241 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Company.master.cs" Inherits="Company" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="AJAX" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="width:50%">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Company System</title>
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="App_Themes/Theme/Site.css" rel="stylesheet" />
+    <style type="text/css">
+
+        .lblColor
+        {
+            color: #00A2CA;
+            font-weight: bold;
+            font-size: 45px;
+            font-family: Times New Roman (Headings CS);
+        }
+        .lblMedical
+        {
+            color: #1CC6F0;
+            font-size: 23px;
+            vertical-align: bottom;
+        }
+        .lbl_Name
+        {
+            font-weight: bold;
+            margin-right: 7px;
+        }
+        .Wapper
+        {
+            width: 200%;
+            height: auto;
+            margin: auto;
+            padding: 0;
+         }
+        .menu-showright 
+        {
+             min-width: 100%;
+             padding: 15px 0;
+             position: absolute;
+             background: #ebebeb;
+             z-index: 100;
+             transition: 0.5s padding, 0.5s background;
+             margin-right: 93.5%;
+             margin-top: -34.5%;
+        }
+        
+        .menu-showright:after {
+          content: "";
+          display: block;
+          height: 0;
+          border-top: 5px solid #ebebeb;
+          border-left: 75px solid transparent;
+          border-right: 75px solid transparent;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          z-index: 101;
+          transition: 0.5s border-top;
+        }
+        
+        .nested_menu:not(:hover) > .menu-showright {
+            padding: 4px 0;
+            background: #dddddd;
+            z-index: 99;
+            visibility: hidden;
+        }
+        
+        .nested_menu:not(:hover) > .menu-dropdown:after {
+          border-top-color: #dddddd;
+        }        
+        
+        .menu-showright > * 
+        {
+          overflow: hidden;
+          height: 30px;
+          padding: 5px 10px;
+          background: rgba(0, 0, 0, 0);
+          white-space: nowrap;
+          transition: 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
+        }
+        
+        .menu-showright > *:hover {
+          background: rgba(0, 0, 0, 0.1);
+        }
+        
+        .nested_menu:not(:hover) > .menu-showright > * {
+          visibility: hidden;
+          height: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          margin: 0;
+          color: rgba(25, 25, 25, 0);
+          transition: 0.5s 0.1s height, 0.5s 0.1s padding, 0.5s 0.1s margin, 0.3s color, 0.6s visibility;
+          z-index: 99;
+        }
+        .bottom_Arrow
+        {
+            float: left;
+            padding-left: 3%;
+            font-size: 80%;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+     <AJAX:ToolkitScriptManager ID="smAjaxScriptManager" AsyncPostBackTimeout="999999"
+        ScriptMode="Release" runat="server" CombineScripts="True">
+        <Scripts>
+            <asp:ScriptReference Path="Scripts/Browser.js" />
+        </Scripts>
+    </AJAX:ToolkitScriptManager>
+
+        <asp:HiddenField ID="hdn_Session" runat="server" />
+
+    <div id="DivWapper" class="Wapper">
+        <%--Header--%>
+        <div>
+            <div id="Profilediv" runat="server" style="height: 20px; margin-left:34%">
+                <asp:HyperLink ID="lblSmart" runat="server" Text="Smart Art" CssClass="lblColor" NavigateUrl="~/GUI/Account/SignIn.aspx" meta:resourcekey="lblSmartResource1"></asp:HyperLink>
+                <asp:HyperLink ID="lblSystem" runat="server" Text="Company System" CssClass="lblMedical" NavigateUrl="~/GUI/Account/SignIn.aspx" meta:resourcekey="lblSystemResource1"></asp:HyperLink>
+            </div>
+            <div id="Lang" runat="server" style="margin-left:77.5%; display:inline">
+                <asp:label ID="lbl_lang" runat="server" CssClass="lblName" meta:resourcekey="lbl_langResource1"></asp:label>
+
+                <asp:LinkButton ID="Lbtn_lang1" runat="server" OnClick="Lbtn_lang1_Click" meta:resourcekey="Lbtn_lang1Resource1"/>
+                <asp:LinkButton ID="Lbtn_lang2" runat="server" OnClick="Lbtn_lang2_Click" meta:resourcekey="Lbtn_lang2Resource2" />
+
+              </div>
+            <div id="id_UserArea" runat="server" style=" margin-left: 03%;text-align: center">
+                <asp:Label ID="lbl_Welcome" CssClass="lbl_Welcome" meta:resourcekey="lbl_WelcomeResource1" runat="server"></asp:Label>
+                <asp:Label ID="lbl_Name" CssClass="lbl_Name" runat="server" meta:resourcekey="lbl_NameResource1"></asp:Label>  
+                <br />
+                <a href="/GUI/Account/ControlPanel/EditProfile.aspx"><asp:Literal ID="Li_CP" runat="server" meta:resourcekey="Li_CPResource1"/></a>
+                <a href="/GUI/Account/SignIn.aspx"><asp:Literal ID="Li_SignOut" runat="server" meta:resourcekey="Li_SignOutResource1"/></a>
+            </div>
+        </div>
+        <%--Body--%>
+        <div id="MainBody" class="MainBody_Company">
+            <div id="MenuDiv" runat="server" class="MenuDiv_Company">
+
+<%--           <label for="show-menu" class="show-menu">Show Menu</label>
+          <input type="checkbox" id="show-menu" role="button"/> --%>
+
+             <ul id="hList" class="hList" runat="server">
+
+                 <li><a href="#" class="menu">
+                   <h1 class="menu-title"><asp:Literal ID="Literal1" runat="server" meta:resourcekey="Li_MainResource1"/></h1>
+                   </a>
+                 </li>
+
+                 <li class="menu">
+                   <h1 class="menu-title menu-title_2nd"><asp:Literal ID="Li_Delegates" runat="server" meta:resourcekey="Li_DelegatesResource1"/><span id="bottom_Arrow1" class="bottom_Arrow" runat="server">▼</span></h1>
+                     <ul class="menu-dropdown">
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Delegates/AddDelegates.aspx" class="menu"><asp:Literal ID="Li_Add_Delegates" runat="server" meta:resourcekey="Li_Add_DelegatesResource1"/></asp:HyperLink></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="/GUI/Company/Delegates/Delegates.aspx" class="menu"><asp:Literal ID="Li_Delegates_List" runat="server" meta:resourcekey="Li_Delegates_ListResource1"/></asp:HyperLink></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" class="menu"><asp:Literal ID="Li_Delegates_Permissions" runat="server" meta:resourcekey="Li_Delegates_Permissions_Resource1"/></asp:HyperLink></li>
+                     </ul>
+                 </li>
+
+                 <li class="menu">
+                   <h1 class="menu-title menu-title_3rd"><asp:Literal ID="Li_Clients" runat="server" meta:resourcekey="Li_ClientsResource1"/><span id="bottom_Arrow2" class="bottom_Arrow" runat="server">▼</span></h1>
+                     <ul class="menu-dropdown">
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/AddClients.aspx" class="menu"><asp:Literal ID="Li_Add_Clients" runat="server" meta:resourcekey="Li_Add_ClientsResource1"/></asp:HyperLink></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/Clients.aspx" class="menu"><asp:Literal ID="Li_Clients_List" runat="server" meta:resourcekey="Li_Clients_List_Resource1"/></asp:HyperLink>></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/ClientsDelegates.aspx" class="menu"><asp:Literal ID="Li_Clients_Delegates" runat="server" meta:resourcekey="Li_Clients_DelegatesResource1"/></asp:HyperLink></li>
+                       <li class="nested_menu">
+                         <asp:HyperLink runat="server" Font-Size="Large" class="menu"><asp:Literal ID="Li_Prices" runat="server" meta:resourcekey="Li_PricesResource1"/><span id="Arrow" class="Arrow" runat="server"></span></asp:HyperLink>
+                           <ul id="menu_showright" class="menu-showright" runat="server">
+                              <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/PricesLists.aspx" class="menu"><asp:Literal ID="Li_Table_Of_Price_Lists" runat="server" meta:resourcekey="Li_Table_Of_Price_ListsResource1"/></asp:HyperLink></li>
+                              <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/SetListPrices.aspx" class="menu"><asp:Literal ID="Li_Set_List_Price" runat="server" meta:resourcekey="Li_Set_List_PriceResource1"/></asp:HyperLink></li>
+                              <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Clients/ClientPricesLists.aspx" class="menu"><asp:Literal ID="Li_Client_Prices_Lists" runat="server" meta:resourcekey="Li_Client_Prices_ListsResource1"/></asp:HyperLink></li>      
+                           </ul>
+                       </li>                         
+                    </ul>
+                </li>
+
+
+                <li class="menu">
+                  <h1 class="menu-title menu-title_4th"><asp:Literal ID="Li_Items" runat="server" meta:resourcekey="Li_ItemsResource1"/><span id="bottom_Arrow3" class="bottom_Arrow" runat="server">▼</span></h1>
+                     <ul class="menu-dropdown">                      
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Items/Groups.aspx" class="menu"><asp:Literal ID="Li_Groups" runat="server" meta:resourcekey="Li_GroupsResource1"/></asp:HyperLink></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" NavigateUrl="~/GUI/Company/Items/Items.aspx" class="menu"><asp:Literal ID="Li_Items_List" runat="server" meta:resourcekey="Li_Items_ListResource1"/></asp:HyperLink></li>
+                       <li><asp:HyperLink runat="server" Font-Size="Large" class="menu"><asp:Literal ID="Li_Link_Photos_To_Items" runat="server" meta:resourcekey="Li_Link_Photos_To_ItemsResource1"/></asp:HyperLink></li>
+                     </ul>  
+                 </li>
+
+                <li><a href="/GUI/Company/Transactions/Transactions.aspx" class="menu">
+                   <h1 id="Tran1" runat="server" class="menu-title menu-title_5th"><asp:Literal ID="Li_Transactions" runat="server" meta:resourcekey="Li_TransactionsResource1"/><span id="bottom_Arrow4" class="bottom_Arrow" runat="server">▼</span></h1>
+                     <ul class="menu-dropdown">
+                       <li>Example</li>
+                       <li>Example</li>
+                       <li>Example</li>
+                     </ul>
+                   </a>
+                 </li>
+
+                <li><a href="/GUI/Reports/Reports.aspx" class="menu">
+                  <h1  id="Tran2" runat="server" class="menu-title menu-title_6th"><asp:Literal ID="Li_Reports" runat="server" meta:resourcekey="Li_ReportsResource1"/><span id="bottom_Arrow5" class="bottom_Arrow" runat="server">▼</span></h1>
+                     <ul class="menu-dropdown">
+                       <li>Example</li>
+                       <li>Example</li>
+                       <li>Example</li>
+                     </ul>
+                   </a>
+                 </li>
+
+             </ul>
+                <div id="SiteMap" class="SiteMap" runat="server" >
+                   <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Bold="true" Font-Size="Large" OnItemCreated="SiteMapPath1_ItemCreated"></asp:SiteMapPath>
+                   <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />                
+                </div>
+               <br />
+
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <%--Footer--%>
+           <div id="Footer" class="Footer_Company">
+               <div class="copyright">
+                   Copyright ©<%= DateTime.Now.Year %> Smart Art
+               </div>
+               <div class="copyright">
+                   All rights reserved. Powered by <a href="http://www.SmartArtjo.com"
+                   target="_blank"></a><a href="http://www.SmartArtjo.com">Smart Art</a>
+               </div>
+          </div>
+    </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/LoginMaster.Master" AutoEventWireup="true" CodeBehind="ControlPanel.master.cs" Inherits="CompanySystem.ControlPanel" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="Body" runat="server">
+    <div>
+        <div id="MainDiv" class="MainDiv">
+            <div id="Header">
+                <h2 id="Header_title" runat="server" class="Header_title"><asp:Literal ID="Li_hdr_title" runat="server" meta:resourcekey="Li_hdr_titleResource1"/></h2>
+            </div>
+            <div id="SubDiv" class="SubDiv">
+                <div id="SignInLeft" runat="server" class="SignInLeft" style="width:20%; margin-top: 3%">
+                   <div>
+                      <a href="../ControlPanel/EditProfile.aspx"><asp:Literal ID="Li_Edit" runat="server" meta:resourcekey="Li_EditResource1"/></a>
+                       <br />
+                       <br />
+                      <a href="../ControlPanel/ChangePassword.aspx"><asp:Literal ID="Li_Password" runat="server" meta:resourcekey="Li_PasswordResource1"/></a>
+                       <br />
+                       <br />
+                      <a href="../ControlPanel/UsersControl.aspx"><asp:Literal ID="Li_Users" runat="server" meta:resourcekey="Li_UsersResource1"/></a>
+                   </div>
+                </div>
+                <div id="SignInRight" runat="server" class="SignInRight">
+                     <asp:ContentPlaceHolder ID="Right" runat="server">
+                     </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

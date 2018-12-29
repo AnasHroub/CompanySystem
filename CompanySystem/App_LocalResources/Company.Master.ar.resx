@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lbl_langResource1.Text" xml:space="preserve">
+    <value>اللغــــــة  :</value>
+  </data>
+  <data name="lbl_langResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_WelcomeResource1.Text" xml:space="preserve">
+    <value>مرحبا،</value>
+  </data>
+  <data name="lbl_WelcomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSmartResource1.Text" xml:space="preserve">
+    <value>Smart Art</value>
+  </data>
+  <data name="lblSmartResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSystemResource1.Text" xml:space="preserve">
+    <value>Company System</value>
+  </data>
+  <data name="lblSystemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbtn_lang1Resource1.Text" xml:space="preserve">
+    <value>العربية   |</value>
+  </data>
+  <data name="Lbtn_lang1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbtn_lang2Resource2.Text" xml:space="preserve">
+    <value>الإنجليزية</value>
+  </data>
+  <data name="Lbtn_lang2Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Li_Add_ClientsResource1.Text" xml:space="preserve">
+    <value>إضـــافة العمــــــلاء</value>
+  </data>
+  <data name="Li_Add_DelegatesResource1.Text" xml:space="preserve">
+    <value>إضــــــافة المنــدوبيــن</value>
+  </data>
+  <data name="Li_Add_Price_ListResource1.Text" xml:space="preserve">
+    <value>إضافة قائمة سعر</value>
+  </data>
+  <data name="Li_Clients_DelegatesResource1.Text" xml:space="preserve">
+    <value>عمـــلاء المنـــدوبين</value>
+  </data>
+  <data name="Li_Clients_List_Resource1.Text" xml:space="preserve">
+    <value>قائمــــــة العمـــــلاء</value>
+  </data>
+  <data name="Li_ClientsResource1.Text" xml:space="preserve">
+    <value>العمــــــلاء</value>
+  </data>
+  <data name="Li_CPResource1.Text" xml:space="preserve">
+    <value>لوحة التحكم |</value>
+  </data>
+  <data name="Li_Delegates_ListResource1.Text" xml:space="preserve">
+    <value>قائمـــــــــة المنـــدوبين</value>
+  </data>
+  <data name="Li_Delegates_Permissions_Resource1.Text" xml:space="preserve">
+    <value>صلاحيات المنــدوبيــن</value>
+  </data>
+  <data name="Li_DelegatesResource1.Text" xml:space="preserve">
+    <value>المنــدوبيــن</value>
+  </data>
+  <data name="Li_GroupsResource1.Text" xml:space="preserve">
+    <value>قائمـــــة المجمــوعــات</value>
+  </data>
+  <data name="Li_Items_ListResource1.Text" xml:space="preserve">
+    <value>قائمـــــة المـــــــــــــواد</value>
+  </data>
+  <data name="Li_ItemsResource1.Text" xml:space="preserve">
+    <value>المــــواد</value>
+  </data>
+  <data name="Li_Link_Client_To_ListResource1.Text" xml:space="preserve">
+    <value>ربــط العميل بقائمــة سعر</value>
+  </data>
+  <data name="Li_Link_Photos_To_ItemsResource1.Text" xml:space="preserve">
+    <value>ربــط الصورة بالمــواد</value>
+  </data>
+  <data name="Li_MainResource1.Text" xml:space="preserve">
+    <value>الرئـيسيـــــــة</value>
+  </data>
+  <data name="Li_Price_ListsResource1.Text" xml:space="preserve">
+    <value>قوائــــــم الأسعـــــــــــــار</value>
+  </data>
+  <data name="Li_ReportsResource1.Text" xml:space="preserve">
+    <value>التقــاريـــــر</value>
+  </data>
+  <data name="Li_Set_List_PriceResource1.Text" xml:space="preserve">
+    <value>تحديــد أسعــار القوائـــــم</value>
+  </data>
+  <data name="Li_SignOutResource1.Text" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="Li_TransactionsResource1.Text" xml:space="preserve">
+    <value>الحركـــــــــات</value>
+  </data>
+  <data name="Li_PricesResource1.Text" xml:space="preserve">
+    <value>الأسعـــــــــــار</value>
+  </data>
+  <data name="Li_Table_Of_Price_ListsResource1.Text" xml:space="preserve">
+    <value>قوائــــــم الأسعـــــــــــــار</value>
+  </data>
+  <data name="Li_Client_Prices_ListsResource1.Text" xml:space="preserve">
+    <value>قوائـــم أسعــار العمــــلاء</value>
+  </data>
+</root>
